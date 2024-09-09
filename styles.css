@@ -5,16 +5,59 @@ body {
     background-color: black;
 }
 
+h1 {
+    font-size: large;
+    line
+}
+h1,
+.form,
+button {
+    margin-left: 5%;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.hero {
+    margin-top: 20%;
+    margin-right: 5%;
+}
 .wrapper {
     display: flex;
     background-color: white;
     height: 75vh;
+    width: 100vw;
     margin: 128px 0;
 }
 .splash {
     height: 100%;
+    width: 39vw;
+}
+.form-box {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 5px 1px 5px;
+    margin-bottom: 20px;
+}
+.form {
+    max-width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.field {
+    margin-right: 30px;
 }
 
-input {
-    
+label {
+    display: block;
+}
+button {
+    background-color: #596D48;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 2px 3px;
 }
