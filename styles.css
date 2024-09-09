@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    background-color: white;
+    height: 75vh;
+    margin: 128px 0;
+}
+.splash {
+    height: 100%;
+}
+
+input {
+    
+}
