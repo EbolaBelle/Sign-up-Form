@@ -4,21 +4,17 @@
 body {
     background-color: black;
 }
-
 h1 {
     font-size: large;
-    line
 }
 h1,
 .form,
 button {
     margin-left: 5%;
 }
-
 .header {
     margin-bottom: 40px;
 }
-
 .hero {
     margin-top: 20%;
     margin-right: 5%;
@@ -49,7 +45,6 @@ button {
 .field {
     margin-right: 30px;
 }
-
 label {
     display: block;
 }
@@ -60,4 +55,17 @@ button {
     border-radius: 5px;
     border: none;
     box-shadow: 3px 2px 3px;
+}
+input {
+    appearance: none;
+    border: 1px solid rgb(200, 202, 199);
+    height: 25px;
+    border-radius: 5px;
+}
+input:focus {
+    width: auto;
+    outline: none;
+    appearance: none;
+    border: 2px solid rgb(110, 110, 212);
+    margin-right: -2px;
 }
