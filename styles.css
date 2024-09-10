@@ -6,10 +6,10 @@ body, html {
     padding: 0;
 }
 body {
-    background-color: black;
+    /*background-color: black;*/
     display: flex;
     justify-content: center;
-    height: calc(100vh - 4px);
+    /*height: calc(100vh - 4px);*/
 }
 h1 {
     font-size: larger;
@@ -27,17 +27,32 @@ h1,
     margin-right: 5%;
     max-width: 55ch;
 }
-.wrapper {
+/*.wrapper {
     position: absolute;
     display: flex;
     background-color: white;
-    /*height: min(955px, 100vh);*/
-    height: inherit;
+    /height: min(955px, 100vh);/
+    height: 100%;
     width: min(1300px, 100%);
-}
+}*/
 .splash-box {
     width: 50rem;
     flex: 1;
+    position: relative;
+}
+.logo-box {
+    background-color: rgb(7 7 7 / 0.5);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    
+    height: inherit;
+
 }
 .splash {
     height: 100%;
@@ -45,6 +60,7 @@ h1,
 }
 .content-box {
     flex: 2;
+    background-color: white;
 }
 .form-box {
     padding-top: 1rem;
