@@ -25,33 +25,34 @@
                         <form class="form">
                             <div class="first-name field">
                                 <label for="first-name">First name</label>
-                                <input type="text">
+                                <input type="text" id="first-name" name="first-name">
                             </div>
                             <div class="last-name field">
                                 <label for="last-name">Last name</label>                            
-                                <input type="text">
+                                <input type="text" id="last-name" name="last-name">
                             </div>    
                             <div class="email field">  
                                 <label for="email">Email</label>                            
-                                <input type="text">
+                                <input type="email" id="email" name="email">
                             </div>
                             <div class="phone field">  
                                 <label for="phone">Phone Number</label>                            
-                                <input type="tel">
+                                <input type="tel" id="phone" name="phone" pattern="([0-9]{3}-[0-9]{3}-[0-9]{4})|[0-9]{10}">
                             </div>
                             <div class="pwd field">       
                                 <label for="pwd">Password</label>                            
-                                <input type="text">
+                                <input type="text" id="pwd" name="pwd">
                             </div>
                             <div class="confirm field">
                                 <label for="confirm">Confirm Password</label>                            
-                                <input type="text">
+                                <input type="text" id="confirm" name="confirm">
                             </div>
                         </form>
                     </div>
             </div>
             <div class="footer">
                 <button type="submit">Create Account</button>
+                <p class="log-in">Already have an account? <a href="index.html">Log in</a></p>
             </div>
         </div>
 </div>

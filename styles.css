@@ -3,32 +3,38 @@
 }
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 h1 {
     font-size: large;
 }
 h1,
 .form,
-button {
+.footer {
     margin-left: 5%;
 }
 .header {
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
 .hero {
     margin-top: 20%;
     margin-right: 5%;
 }
 .wrapper {
+    position: absolute;
     display: flex;
     background-color: white;
-    height: 75vh;
-    width: 100vw;
+    height: min(968px, 73%);
+    width: min(1300px, 100%);
     margin: 128px 0;
+}
+.splash-box {
+    width: 50rem;
 }
 .splash {
     height: 100%;
-    width: 39vw;
+    width: 100%;
 }
 .form-box {
     padding-top: 5px;
@@ -58,7 +64,7 @@ button {
 }
 input {
     appearance: none;
-    border: 1px solid rgb(200, 202, 199);
+    border: 1px solid #E5E7EB;
     height: 25px;
     border-radius: 5px;
 }
@@ -68,4 +74,12 @@ input:focus {
     appearance: none;
     border: 2px solid rgb(110, 110, 212);
     margin-right: -2px;
+    box-shadow: 1px 1px 1px gray;
+}
+input:invalid{
+    border: 2px solid red;
+    margin-right: -2px;
+}
+.log-in {
+    font-size: small;
 }
