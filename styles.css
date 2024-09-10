@@ -94,9 +94,11 @@ button:active{
     background-color: #2d5e02;
 }
 input {
+    font-size: 16px;
     appearance: none;
     border: 1px solid #E5E7EB;
-    height: 25px;
+    height: 35px;
+    width: 200px;
     border-radius: 5px;
 }
 input:hover,
@@ -105,15 +107,15 @@ input:focus{
     border: 1px solid rgb(110, 110, 212);
 }
 input:focus {
-    width: auto;
+   
     outline: none;
     appearance: none;
-    margin-right: -2px;
+    
     border: 2px solid rgb(110, 110, 212);   
 }
 input:user-invalid{
     border: 2px solid red;
-    margin-right: -2px;
+    
 }
 .log-in {
     font-size: small;
